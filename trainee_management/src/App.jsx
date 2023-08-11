@@ -6,8 +6,10 @@ import Footer from './Footer';
 import LoginForm from './LoginForm';
 import Conn from './pages/signup/connect'
 import Log from './pages/Login/Login'
-import Navbar from './Navbar';
 import Stagiaire from './pages/Stagiaire/stagiaire';
+import Homepage from './pages/accueil/accueil';
+
+
 function App() {
   return (
   <BrowserRouter>
@@ -16,9 +18,10 @@ function App() {
       <Route path="/" element={<Conn/>} />
       <Route path="/login" element={<Log/>} />
       <Route path="/stagiaire" element={<Stagiaire/>} />
+      <Route path="/homepage" element={<Homepage/>} />
+      
 
-      
-      
+    
     </Routes>
    
     </BrowserRouter>

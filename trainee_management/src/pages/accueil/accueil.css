@@ -1,0 +1,63 @@
+/* Ajoutez les styles pour le logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px; /* Ajustez la taille du logo en fonction de vos besoins */
+  }
+  
+  .homepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
+    height: 100vh;
+    align-items: center;
+  }
+  
+  .left-part {
+    padding: 20px;
+    /* Utilisez background-image pour définir l'image de fond */
+    background-image: url('C:\Users\MSI\Desktop\Trainee\Trainee-\trainee_management\src\2__2_.jpeg'); /* Remplacez par le chemin de votre image */
+    background-size: cover ; /* Ajustez la taille de l'image pour couvrir la zone */
+    background-repeat: no-repeat; /* Empêchez la répétition de l'image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .welcome-message {
+    font-size: 32px; /* Augmenter la taille de la police */
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif; /* Changer la police du message */
+  }
+  
+  .right-part {
+    padding: 20px;
+    background-color: #ffffff; /* Couleur de fond de la partie droite */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Hauteur à 100% pour occuper tout l'espace vertical disponible */
+  }
+  
+  .get-started {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .buttons-container {
+    display: flex;
+  }
+  
+  .login-btn,
+  .signup-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
+  

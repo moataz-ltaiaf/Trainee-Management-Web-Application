@@ -7,7 +7,7 @@ const Stagiaire = () => {
   return (
     <div>
       <div>
-      <div className="logo">
+      <div className="logost">
         <img src="draxlmaier-logo.png" alt="Logo" />
         <a href="/login">Log Out</a>
       </div>
