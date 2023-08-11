@@ -1,15 +1,15 @@
 import React from 'react';
 import SignupForm from '../../SignupForm';
 import Footer from '../../Footer';
-import './signup.css';
+import  './signup.css';
 
 
 const  Conn = () => {
   return (
-    <div>
+    <div className='signUP'>
     <SignupForm/>
+   
     <Footer/>
-  
     </div>
   );
 };

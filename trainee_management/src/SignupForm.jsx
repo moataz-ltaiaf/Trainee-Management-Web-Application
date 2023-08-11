@@ -21,7 +21,7 @@ const SignupForm = () => {
   };
 
   return (
-    <div className="container">
+    <div className="signupcontainer">
       <form className="signupForm" onSubmit={handleSubmit}>
         <fieldset className="signupName">
           <legend>Full Name:</legend>

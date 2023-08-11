@@ -6,19 +6,23 @@ import Footer from './Footer';
 import LoginForm from './LoginForm';
 import Conn from './pages/signup/connect'
 import Log from './pages/Login/Login'
-
+import Navbar from './Navbar';
+import Stagiaire from './pages/Stagiaire/stagiaire';
 function App() {
   return (
   <BrowserRouter>
    <Routes>
-
+    
       <Route path="/" element={<Conn/>} />
       <Route path="/login" element={<Log/>} />
-      
+      <Route path="/stagiaire" element={<Stagiaire/>} />
 
-    
+      
+      
     </Routes>
+   
     </BrowserRouter>
+  
     
   );
 }

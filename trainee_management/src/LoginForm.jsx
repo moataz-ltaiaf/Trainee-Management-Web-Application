@@ -21,7 +21,7 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="container">
+    <div className="logincontainer">
       <form className="signupForm" onSubmit={handleSubmit}>
         
         <fieldset className="signupEmail">
@@ -47,7 +47,7 @@ const LoginForm = () => {
           />
         </fieldset>
         <button type="submit">Continue</button>
-        <p>Already have an account?<Link to="/">Sign up</Link></p>
+        <p>Don't have an account?<Link to="/">Sign up</Link></p>
         
       </form>
     </div>
