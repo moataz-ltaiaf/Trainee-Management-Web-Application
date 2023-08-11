@@ -6,6 +6,7 @@ import Footer from './Footer';
 import LoginForm from './LoginForm';
 import Conn from './pages/signup/connect'
 import Log from './pages/Login/Login'
+import Homepage from './pages/accueil/accueil';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
       <Route path="/" element={<Conn/>} />
       <Route path="/login" element={<Log/>} />
+      <Route path="/accueil" element={<Homepage/>} />
       
 
     
