@@ -8,6 +8,7 @@ import Conn from './pages/signup/connect'
 import Log from './pages/Login/Login'
 import Stagiaire from './pages/Stagiaire/stagiaire';
 import Homepage from './pages/accueil/accueil';
+import EncadrantComponent from './pages/EncadrantComponent';
 
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
       <Route path="/login" element={<Log/>} />
       <Route path="/stagiaire" element={<Stagiaire/>} />
       <Route path="/homepage" element={<Homepage/>} />
+      <Route path="/encadrant" element={<EncadrantComponent/>} />
+
+    
       
 
     
