@@ -1,5 +1,5 @@
 import React from 'react';
-import './EncadrantComponent.css';
+import './Encadrant.css';
 
 const EncadrantComponent = () => {
   return (
