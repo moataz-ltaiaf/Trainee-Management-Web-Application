@@ -16,7 +16,7 @@
   .left-part {
     padding: 20px;
     /* Utilisez background-image pour définir l'image de fond */
-    background-image: url('C:\Users\kirou\OneDrive\Bureau\Trainee-Management-Web-Application\trainee_management\Trainee-Management-Web-Application\trainee_management\src\2__2_.jpeg'); /* Remplacez par le chemin de votre image */
+    background-image: url('C:\Users\MSI\Desktop\Trainee\Trainee-\trainee_management\Trainee-Management-Web-Application\trainee_management\src\2__2_.jpeg'); /* Remplacez par le chemin de votre image */
     background-size: cover ; /* Ajustez la taille de l'image pour couvrir la zone */
     background-repeat: no-repeat; /* Empêchez la répétition de l'image */
     display: flex;

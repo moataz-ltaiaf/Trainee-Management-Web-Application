@@ -1,0 +1,30 @@
+.display{
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 200px;
+ margin: auto;
+ opacity: 0.6;
+margin-bottom: 20px;
+ margin-top: 0px;
+}
+.display button{
+ margin-left: -80px;
+ width: 400px;
+}
+.logost{
+  margin-bottom: 50px;
+}
+.logost img {
+  height: 50px; /* Adjust the height as per your logo's dimensions */
+
+ margin-top: 30px;
+  margin-left: 30px;
+
+}
+.logost a {
+ margin-left: 1290px;
+ color: #FFF;
+ margin-top: 30px;
+}

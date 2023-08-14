@@ -1,0 +1,24 @@
+.profileForm{
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 200px;
+ margin: auto;
+ opacity: 0.6;
+margin-bottom: 50px;
+ margin-top: 0px;
+ padding-top: 50px;
+}
+.profileForm input{
+  width: 300px;
+  margin-left: -100px;
+  border-radius: 1px ;
+}
+.profileForm textarea{
+  margin-left: -100px;
+  width: 300px;
+}
+.profileForm button{
+  margin-left: -70px;
+}

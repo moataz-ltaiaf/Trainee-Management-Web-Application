@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './stage.css';
+import Navbar from '../../Navbar';
+import Footer from '../../Footer';
 
 const StagesComponent = () => {
-  const stagesData = [
+  const [stagesData, setStagesData] = useState([
     {
       title: 'Titre du Sujet 1',
       description: 'Description du Sujet 1...',
@@ -15,19 +17,49 @@ const StagesComponent = () => {
       title: 'Titre du Sujet 3',
       description: 'Description du Sujet 3...',
     },
-    // Ajoutez plus d'objets de données pour plus de blocs
-  ];
+  ]);
+
+  const addStage = () => {
+    const newStage = {
+      title: '',
+      description: '',
+    };
+    setStagesData([...stagesData, newStage]);
+  };
+
+  const handleTitleChange = (index, event) => {
+    const updatedStages = [...stagesData];
+    updatedStages[index].title = event.target.value;
+    setStagesData(updatedStages);
+  };
+
+  const handleDescriptionChange = (index, event) => {
+    const updatedStages = [...stagesData];
+    updatedStages[index].description = event.target.value;
+    setStagesData(updatedStages);
+  };
 
   return (
     <div className="stages-page">
-      <button className="add-stage-button">Ajouter un stage</button> 
+      <Navbar/>
+      <button className="add-stage-button" onClick={addStage}>Ajouter un stage</button>
       {stagesData.map((stage, index) => (
         <div className="stage-block" key={index}>
-          <h2>{stage.title}</h2>
-          <p>{stage.description}</p>
+          <input
+            type="text"
+            placeholder="Titre du Sujet"
+            value={stage.title}
+            onChange={(event) => handleTitleChange(index, event)}
+          />
+          <textarea
+            placeholder="Description du Sujet"
+            value={stage.description}
+            onChange={(event) => handleDescriptionChange(index, event)}
+          />
           <button className="apply-button">Apply</button>
         </div>
       ))}
+      <Footer/>
     </div>
   );
 };

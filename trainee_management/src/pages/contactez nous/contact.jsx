@@ -2,9 +2,12 @@ import React from 'react';
 import './Contact.css';
 import '../../Footer.jsx';
 import Footer from '../../Footer.jsx';
+import Navbar from '../../Navbar';
 
 const ContactUsComponent = () => {
-  return (<div><div className="contact-page">
+  return (<div>
+    <Navbar/>
+    <div className="contact-page">
   <div className="contact-form">
     <h2>Contact Us</h2>
     <form>

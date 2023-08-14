@@ -12,6 +12,7 @@ import EncadrantComponent from './pages/encadrant/Encadrant';
 import StagesComponent from './pages/Stages/stage';
 import AboutUsComponent from './pages/about us/about';
 import ContactUsComponent from './pages/contactez nous/contact';
+import Profile from './pages/Profile/profile'
 
 
 
@@ -29,6 +30,7 @@ function App() {
       <Route path ="/stages" element={<StagesComponent/>}/>
       <Route path ="/about" element={<AboutUsComponent/>}/>
       <Route path ="/contact" element={<ContactUsComponent />}/>
+      <Route path ="/profile" element={<Profile/>}/>
 
     
       
